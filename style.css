@@ -1,114 +1,16 @@
-h1, h2, h3 {
-    text-shadow: 2px 2px 8px #000000b7;
-  }
-#Header {
-    padding: 40px;
-    text-align: center;
-    background-image: url(./images/R.gif);
-    background-size:15em;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.img-t {
-    float: left;
-    margin: 5px;
-  }
-  .img-tr {
-    float: right;
-    margin: 5px;
-  }
-  video {
-    width: 100%;
-    min-width: 300px;
-  }
-
-  p {
-    text-align: justify;
-    font-size: 25px;
-  }
-  * {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  padding: auto;
-}
-a {
-    align-self: center;
-    margin-bottom: 10px;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+@import url(https://fonts.googleapis.com/css?family=Arvo);
 
 
+/* SELECTED TEXT */
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+html {
+    font-size: 18px;font-size: 1.13rem;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;                          
+    }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #fdf8f8;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #faf7f7;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
+html, input { font-family: "arvo", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
-
-/* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}

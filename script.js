@@ -1,14 +1,9 @@
-let slideIndex = 0;
-showSlides();
+// 404 Error page
+//Responsive: Large desktop (1800px), Standard, Mobile (568px)
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
-}
+
+// iPhone pull addressbar (Optional)
+/mobile/i.test(navigator.userAgent) && !window.location.hash && setTimeout(function () {
+    window.scrollTo(0, 1);
+    }, 1000);
+    
