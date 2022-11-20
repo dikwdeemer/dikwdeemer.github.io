@@ -145,7 +145,7 @@ body {
   box-sizing: border-box;
 }
 #card1 {
- background-image: url([url=https://postimg.cc/bZsR9z7z][img]https://i.postimg.cc/bZsR9z7z/merchgirl.jpg[/img][/url]);
+ background-image:url(https://i.postimg.cc/FHxnmzGJ/merchgirl.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  color: #000000;
@@ -154,7 +154,7 @@ body {
 }
 
 #card2 {
-  background-image: url([url=https://postimg.cc/xcj5qGgN][img]https://i.postimg.cc/xcj5qGgN/graphics.webp[/img][/url]);
+  background-image: url(https://i.postimg.cc/5NLR7nCg/graphics.webp);
   background-size: cover;
   background-repeat: no-repeat;
   color:#000000;
